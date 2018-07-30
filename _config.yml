@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Keith's GitHub Blog about current Coursera classes.
   
 # social links
-twitter_username: @keithehenry
-github_username:  @keithehenry
+twitter_username: keithehenry
+github_username:  keithehenry
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
