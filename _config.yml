@@ -20,7 +20,7 @@ description: Keith's GitHub Blog about current Coursera classes.
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
+  name: Keith E Henry
   twitter:
   picture:
 twitter_username: keithehenry
