@@ -1,6 +1,4 @@
-This is the title.
-
-# Welcome to my blog
+# Keith's Coursera Blog
 
 I'm glad you are here. I plan to talk about ...
 
