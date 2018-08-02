@@ -1,7 +1,6 @@
 ---
 layout: home
-title:  "Keith's Projects and Hobbies"
+title:  "Projects and Hobbies"
 ---
-## Recommended Heading
-So here we are with just another free website.
-This info taken from [https://github.com/jekyll/minima#home-layout](https://github.com/jekyll/minima#home-layout).
+## Latest and Greatest...
+Completely new and improved *free* website using GitHub Pages.
