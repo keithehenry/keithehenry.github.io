@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Keith E Henry",
-    "label": "I had a great career writing microcode and designing microprocessors, then ASICs, FPGAs, and hardware for graphics and video - but being retired and living in Mexico is possibly even better!",
+    "label": "I had a great career writing microcode and designing microprocessors, then ASICs, FPGAs, and hardware for graphics and video - but being retired and living in Sedona, AZ is possibly even better!",
     "picture": "",
     "email": "",
     "phone": "",
     "website": "",
-    "summary": "",
+    "summary": "Computer Hardware",
     "location": {
       "address": "",
-      "postalCode": "Tyngsboro, Massachusetts",
+      "postalCode": "Sedona, Arizona",
       "city": "",
       "countryCode": "",
       "region": ""
@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "OTHER:http://plus.google.com/109934167064507477522",
-        "url": "https://twitter.com/OTHER:http://plus.google.com/109934167064507477522"
+        "username": "OTHER:www.keithehenry.com, OTHER:https://twitter.com/keithehenry",
+        "url": "https://twitter.com/OTHER:www.keithehenry.com, OTHER:https://twitter.com/keithehenry"
       }
     ]
   },
