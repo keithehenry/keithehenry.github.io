@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Keith E Henry",
-    "label": "I had a great career writing microcode and designing microprocessors, then ASICs, FPGAs, and hardware for graphics and video - but being retired and living in Sedona, AZ is possibly even better!",
+    "label": "Firmware and Chip Designer (Retired)",
     "picture": "",
-    "email": "",
+    "email": "keithehenry@gmail.com",
     "phone": "",
-    "website": "",
-    "summary": "Computer Hardware",
+    "website": "www.keithehenry.com",
+    "summary": "I had a great career writing microcode and designing microprocessors, then ASICs, FPGAs, and hardware for graphics and video - but being retired and living in Sedona is possibly even better!",
     "location": {
       "address": "",
-      "postalCode": "Sedona, Arizona",
+      "postalCode": "",
       "city": "",
       "countryCode": "",
       "region": ""
@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "OTHER:www.keithehenry.com, OTHER:https://twitter.com/keithehenry",
-        "url": "https://twitter.com/OTHER:www.keithehenry.com, OTHER:https://twitter.com/keithehenry"
+        "username": "keithehenry",
+        "url": "https://twitter.com/keithehenry"
       }
     ]
   },
@@ -27,78 +27,84 @@
       "company": "Rockhill Resources",
       "position": "Independent Contractor",
       "website": "",
-      "startDate": "1998-01-01",
+      "startDate": "1998",
+      "endDate": "2003",
       "summary": "Independent contracting offering Xilinx FPGA design expertise.",
-      "highlights": [],
-      "endDate": "2003-01-01"
+      "highlights": []
     },
     {
       "company": "PixelVision",
       "position": "Principal Engineer",
       "website": "",
-      "startDate": "1993-01-01",
+      "startDate": "1993",
+      "endDate": "1998",
       "summary": "FPGA and system design for video and LCD interfaces.",
-      "highlights": [],
-      "endDate": "1998-01-01"
+      "highlights": []
     },
     {
       "company": "PictureTel",
       "position": "Principal Engineer",
       "website": "",
-      "startDate": "1992-01-01",
+      "startDate": "1992",
+      "endDate": "1993",
       "summary": "ASIC design for video processing.",
-      "highlights": [],
-      "endDate": "1993-01-01"
+      "highlights": []
     },
     {
       "company": "Apollo Computer",
       "position": "Principal Engineer",
       "website": "",
-      "startDate": "1986-01-01",
+      "startDate": "1986",
+      "endDate": "1991",
       "summary": "ASIC design, microcode, and algorithm development for computer graphics.",
-      "highlights": [],
-      "endDate": "1991-01-01"
+      "highlights": []
     },
     {
       "company": "Mercury Computer Systems",
       "position": "MTS",
       "website": "",
-      "startDate": "1984-01-01",
+      "startDate": "1984",
+      "endDate": "1986",
       "summary": "Microcode and algorithm development for digital signal processing.",
-      "highlights": [],
-      "endDate": "1986-01-01"
+      "highlights": []
     },
     {
       "company": "Digital Equipment Corporation",
       "position": "Senior Engineer",
       "website": "",
-      "startDate": "1979-01-01",
+      "startDate": "1979",
+      "endDate": "1984",
       "summary": "VLSI logic and circuit design and microcode development for CPUs and microprocessors.",
-      "highlights": [],
-      "endDate": "1984-01-01"
+      "highlights": []
     }
   ],
+  "volunteer": [],
   "education": [
     {
       "institution": "Penn State University",
       "area": "",
       "studyType": "BSEE, with Honor of Distinction",
-      "startDate": "1974-12-31",
+      "startDate": "1975",
+      "endDate": "1979",
       "gpa": "",
-      "courses": [],
-      "endDate": "1978-12-31"
+      "courses": []
     }
   ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
-      "name": "ASIC",
+      "name": "",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Processors",
+      "name": "",
       "level": "",
       "keywords": []
     }
-  ]
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
 }
