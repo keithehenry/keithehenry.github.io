@@ -10,8 +10,8 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
-      "countryCode": "",
+      "city": "Sedona, AZ",
+      "countryCode": "USA",
       "region": ""
     },
     "profiles": [
@@ -82,8 +82,8 @@
   "education": [
     {
       "institution": "Penn State University",
-      "area": "",
-      "studyType": "BSEE, with Honor of Distinction",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Science, with Honor of Distinction",
       "startDate": "1975",
       "endDate": "1979",
       "gpa": "",
