@@ -3,12 +3,8 @@ title: "About"
 layout: about
 ---
 
-Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
+I'm a retired computer engineer who still enjoys tinkering with software and electronics.
 
-- Clean responsive design with [six customizable skins](#skin)
-- Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
-- About page layout
-- Disqus Comments and Google Analytics support
-- SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
+This website grew out of a continuing interest in simple front-end web development and inexpensive hosting solutions. It is hosted for free at GitHub and generated automatically by their built-in Jekyll static site generator.
 
-You can find the source code for this theme at: {% include icon-github.html username="mmistakes" %}/[jekyll-theme-basically-basic](https://github.com/mmistakes/jekyll-theme-basically-basic)
+You can find the source code for this site at: {% include icon-github.html username="keithehenry" %}/[keithehenry.github.io](https://github.com/keithehenry/keithehenry.github.io).
