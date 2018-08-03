@@ -1,0 +1,104 @@
+{
+  "basics": {
+    "name": "Keith E Henry",
+    "label": "I had a great career writing microcode and designing microprocessors, then ASICs, FPGAs, and hardware for graphics and video - but being retired and living in Mexico is possibly even better!",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "Tyngsboro, Massachusetts",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "OTHER:http://plus.google.com/109934167064507477522",
+        "url": "https://twitter.com/OTHER:http://plus.google.com/109934167064507477522"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Rockhill Resources",
+      "position": "Independent Contractor",
+      "website": "",
+      "startDate": "1998-01-01",
+      "summary": "Independent contracting offering Xilinx FPGA design expertise.",
+      "highlights": [],
+      "endDate": "2003-01-01"
+    },
+    {
+      "company": "PixelVision",
+      "position": "Principal Engineer",
+      "website": "",
+      "startDate": "1993-01-01",
+      "summary": "FPGA and system design for video and LCD interfaces.",
+      "highlights": [],
+      "endDate": "1998-01-01"
+    },
+    {
+      "company": "PictureTel",
+      "position": "Principal Engineer",
+      "website": "",
+      "startDate": "1992-01-01",
+      "summary": "ASIC design for video processing.",
+      "highlights": [],
+      "endDate": "1993-01-01"
+    },
+    {
+      "company": "Apollo Computer",
+      "position": "Principal Engineer",
+      "website": "",
+      "startDate": "1986-01-01",
+      "summary": "ASIC design, microcode, and algorithm development for computer graphics.",
+      "highlights": [],
+      "endDate": "1991-01-01"
+    },
+    {
+      "company": "Mercury Computer Systems",
+      "position": "MTS",
+      "website": "",
+      "startDate": "1984-01-01",
+      "summary": "Microcode and algorithm development for digital signal processing.",
+      "highlights": [],
+      "endDate": "1986-01-01"
+    },
+    {
+      "company": "Digital Equipment Corporation",
+      "position": "Senior Engineer",
+      "website": "",
+      "startDate": "1979-01-01",
+      "summary": "VLSI logic and circuit design and microcode development for CPUs and microprocessors.",
+      "highlights": [],
+      "endDate": "1984-01-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Penn State University",
+      "area": "",
+      "studyType": "BSEE, with Honor of Distinction",
+      "startDate": "1974-12-31",
+      "gpa": "",
+      "courses": [],
+      "endDate": "1978-12-31"
+    }
+  ],
+  "skills": [
+    {
+      "name": "ASIC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Processors",
+      "level": "",
+      "keywords": []
+    }
+  ]
+}
