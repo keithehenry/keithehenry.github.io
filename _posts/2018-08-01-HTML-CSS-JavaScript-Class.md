@@ -1,4 +1,4 @@
-I'm taking a [HTML CSS JavaScript class](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome).
+So I'm taking a [HTML CSS JavaScript class](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome) and...
 
 The class uses GitHub Pages to post assignments. I did a few of the related tutorials. Who knew you could create and host entire websites using Jekyll right at GitHub? *(Everyone but me probably.)* Very powerful.
 
