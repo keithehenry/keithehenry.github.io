@@ -78,32 +78,13 @@
       "highlights": []
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "Penn State University",
       "area": "Electrical Engineering",
       "studyType": "Bachelor of Science, with Honor of Distinction",
       "startDate": "1975",
-      "endDate": "1979",
-      "courses": []
+      "endDate": "1979"
     }
   ],
-  "awards": [],
-  "publications": [],
-  "skills": [
-    {
-      "name": "",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "",
-      "level": "",
-      "keywords": []
-    }
-  ],
-  "languages": [],
-  "interests": [],
-  "references": []
 }
