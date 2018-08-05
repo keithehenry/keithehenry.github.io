@@ -1,6 +1,6 @@
 ---
 title: Web Development
 layout: category
-permalink: /categories/webdev/
-taxonomy: webdev
+permalink: /categories/web-dev/
+taxonomy: Web Dev
 ---
