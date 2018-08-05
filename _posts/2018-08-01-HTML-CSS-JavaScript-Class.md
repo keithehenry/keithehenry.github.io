@@ -1,6 +1,6 @@
 ---
 categories:
-  - webdev
+  - Web Dev
 ---
 So I'm taking a [HTML CSS JavaScript class](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome) and...
 
