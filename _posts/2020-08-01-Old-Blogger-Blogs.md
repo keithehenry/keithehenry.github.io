@@ -16,5 +16,5 @@ Check out:
 [Casa de Keith y Leigh](http://www.keithandleigh.com/categories/casa/)
 
 *KEH - Update 2020-08-07:
-Consolidated old blogs into one and reworked making this the new home of
+Consolidated old blogs into one and reworked, making this the new home of
 everything [KeithAndLeigh.com](http://keithandleigh.com).*
