@@ -1,3 +1,7 @@
+---
+categories:
+  - Electronics
+---
 This is really a test of using [StackEdit.io](https://stackedit.io) to create blog posts directly.  
 Here is a photo of my Arduino Uno R3 with a DHT22 temperature and humidity sensor. As it is not WiFi enabled, it uses USB serial (emulation) to output the temperature and humidity. Then, with Node-Red running on Debian Buster (via crouton on a Chromebook), it uses MQTT to send the data to [io.adafruit.com](https://io.adafruit.com). You can view my "dashboard" here: [https://io.adafruit.com/keithehenry/dashboards/humidity-and-temperature](https://io.adafruit.com/keithehenry/dashboards/humidity-and-temperature)
 
@@ -7,6 +11,6 @@ Here is a photo of my Arduino Uno R3 with a DHT22 temperature and humidity senso
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ3NDg3NzAsMjI2NDQ1MTA0LC0xMT
+eyJoaXN0b3J5IjpbLTEzNDk5OTAwODgsMjI2NDQ1MTA0LC0xMT
 EzMzkwMzI1XX0=
 -->
