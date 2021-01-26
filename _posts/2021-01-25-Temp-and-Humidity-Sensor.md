@@ -12,13 +12,12 @@ As it is not WiFi enabled, it uses USB serial (emulation) to output the temperat
 
 At Adafruit IO I created a "dashboard" to display the data: [https://io.adafruit.com/keithehenry/dashboards/humidity-and-temperature](https://io.adafruit.com/keithehenry/dashboards/humidity-and-temperature)
 
-There are also local Node-Red charts but the Adafruit ones 
 Credit to [Andreas Spiess](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ) for the inspiration. "Cool."
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc1MTU5NTQsLTEzNDk2MzU0OTcsMj
-AxNzkyOTkxLDE3MDY3MDc4OCwxODcxOTA5MTA4LDI4MTIwMzc4
-NiwyMjY0NDUxMDQsLTExMTMzOTAzMjVdfQ==
+eyJoaXN0b3J5IjpbLTExMDcyMDE4MiwtMTM0OTYzNTQ5NywyMD
+E3OTI5OTEsMTcwNjcwNzg4LDE4NzE5MDkxMDgsMjgxMjAzNzg2
+LDIyNjQ0NTEwNCwtMTExMzM5MDMyNV19
 -->
