@@ -1,3 +1,7 @@
+---
+categories:
+  - Electronics
+---
 New and improved temperature and humidity sensor.
 
 This one uses an ESP8266 (a $1.80 microprocessor with WiFi) with a DHT22 sensor. The USB input supplies power. Data is uploaded to Adafruit.IO every five minutes via WiFi using MQTT. Amazing inexpensive technology!
@@ -10,5 +14,5 @@ Inspired by [Andreas Spiess](https://www.youtube.com/channel/UCu7_D0o48KbfhpEoho
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODgxNDM1NV19
+eyJoaXN0b3J5IjpbLTE5Nzk3NDA5OSwxNjA4ODE0MzU1XX0=
 -->
