@@ -5,7 +5,10 @@ This one uses an ESP8266 (a $1.80 microprocessor with WiFi) with a DHT22 sensor.
 
 Adafruit provides an attractive [dashboard](https://io.adafruit.com/keithehenry/dashboards/humidity-and-temperature):
 ![enter image description here](https://lh3.googleusercontent.com/pw/ACtC-3eajFc6MMAZb0ZOVavymY29zm9eQrQnf50g_VHhXGSsaaOSBMpuWBEOMHGNZXSvUdxRz9dLLQaUrExIFDm2pX58QYzUAiqTGfifDVadKpXlxY44zEjepqkGcWzuETicm6n7XfkJsJeLBam0E0Fz707woQ=w800-no-tmp.jpg)
+
+Inspired by [Andreas Spiess](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ). "Cool."
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzI0OTYwNl19
+eyJoaXN0b3J5IjpbMTYwODgxNDM1NV19
 -->
