@@ -8,9 +8,9 @@ I also had [these notes](https://lh3.googleusercontent.com/3Ly2EBkKP3Ju0IRfNoA2K
 I had also learned previously that the CM11A would generated a stream of "A5"s after line power is reestablish. I put 2 NiMH batteries in the CM11A and plugged it into line power. My oscilloscope showed the following:
 ![enter image description here](https://lh3.googleusercontent.com/5br0kafRTKbU-8XO9YBxnvFDl4j7mJcvWef0xYdj4dGSR-LUyWKLoc0dfAG5o6GSv12TEFiglZN_MgsXB7UIvikHeWcy1B3t5dul-jxkHRtcCJyqwLjjA-ZbHnzkvmKkqAkavqR0SusR0pu75bIqgBhTWjcdMDD-5b_mWhDNP0eOQpN2SOEDJjYxVVhSEusT0thThEH2lmfGEb4VtVMYM1xsgnvhKdFJDtkJ3P-TJs9NrK7HoeupeXnqPxkq5YYLrGHfnPoMiD1ohns4Jp75J7iN3rSbIjl3Cld7OzFqsybK8qPKrxUH2J36nAAGM1sioZKMt2bZVBEgY_lhmmeT1Vs6YjQ4T5dYZiuY_qaIFaKMpHd7TIJ0uq_b-NG4rX6g8qAkpZSzz1DrwMhAqunIqdJoYiURZmqCxWfboE1alqkQxfCdL56z1yqLkHshUutrHFOxyQfOpoP6MEdxFMQqGcn9qmoF732LBds0pUyV_kVsH7RDvgo5VNZ2zV5zeAz5Enr9zfAuOvI6Mg2nuXU3riCOcYawRicq0Fs912Q0iNIl6n8CmMVrXza-ycnMlHkfWbk6sPeOsIoc0HgSyo26hMrazceUOuvmnQWELVv5EaAC9YF-LY0S6J4sLAYGupQgJS8M9k5IgV0OM3ewoIMTFmuaP_ZFkfM23bNtI9YVDaLSSKgGdIhXNZA4rng9haOAQgVKx4G98ACWvD5uAC_ps88OEA=w800-no-tmp.jpg)
 It was alive, but why was the waveform only from 0 to 6 volts? RS232 should be from -12 to 12 or similar.
-Then I remember that the CM11A probably used the negative voltage on its input pin to generate the negative voltage on its output.
+Then I remember that the CM11A probably used the negative voltage on its input pin to generate the negative voltage on its output. To test this, I connected +3.3V and Gnd inputs to
 It is an USB to RS232 interface using a MSP430G2553 Launchpad development board and a level converter module. I'm using it to interface to and program an old [CM11A](http://kbase.x10.com/wiki/CM11A) (X10 interface.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDEyMjczNSwxOTE1MTMxNDAzLDkzNz
-AwNjEzOSw5NDAyNTcxMzJdfQ==
+eyJoaXN0b3J5IjpbLTE2NDgyNjI5ODcsMTkxNTEzMTQwMyw5Mz
+cwMDYxMzksOTQwMjU3MTMyXX0=
 -->
