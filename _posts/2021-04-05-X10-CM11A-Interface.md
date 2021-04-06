@@ -11,7 +11,7 @@ I had also learned previously that the CM11A would generated a stream of "A5"s a
 ![enter image description here](https://lh3.googleusercontent.com/5br0kafRTKbU-8XO9YBxnvFDl4j7mJcvWef0xYdj4dGSR-LUyWKLoc0dfAG5o6GSv12TEFiglZN_MgsXB7UIvikHeWcy1B3t5dul-jxkHRtcCJyqwLjjA-ZbHnzkvmKkqAkavqR0SusR0pu75bIqgBhTWjcdMDD-5b_mWhDNP0eOQpN2SOEDJjYxVVhSEusT0thThEH2lmfGEb4VtVMYM1xsgnvhKdFJDtkJ3P-TJs9NrK7HoeupeXnqPxkq5YYLrGHfnPoMiD1ohns4Jp75J7iN3rSbIjl3Cld7OzFqsybK8qPKrxUH2J36nAAGM1sioZKMt2bZVBEgY_lhmmeT1Vs6YjQ4T5dYZiuY_qaIFaKMpHd7TIJ0uq_b-NG4rX6g8qAkpZSzz1DrwMhAqunIqdJoYiURZmqCxWfboE1alqkQxfCdL56z1yqLkHshUutrHFOxyQfOpoP6MEdxFMQqGcn9qmoF732LBds0pUyV_kVsH7RDvgo5VNZ2zV5zeAz5Enr9zfAuOvI6Mg2nuXU3riCOcYawRicq0Fs912Q0iNIl6n8CmMVrXza-ycnMlHkfWbk6sPeOsIoc0HgSyo26hMrazceUOuvmnQWELVv5EaAC9YF-LY0S6J4sLAYGupQgJS8M9k5IgV0OM3ewoIMTFmuaP_ZFkfM23bNtI9YVDaLSSKgGdIhXNZA4rng9haOAQgVKx4G98ACWvD5uAC_ps88OEA=w800-no-tmp.jpg)
 It was alive! But why was the waveform only from 0 to 6 volts? RS232 should be from -12 to 12 or similar.
 
-I sort of remembered that the CM11A used the negative voltage on its input pin to generate the negative voltage on its output. To test this, I fished out a new RS232 converter chip and [this note](https://lh3.googleusercontent.com/pw/ACtC-3fRqbOwYhAg9EuXhRdoCVjb2EJmCpPHutMtDdMWLWyNa1VRXgIfi36sf8gFG6BCd1bTIGDKEF8LYRiDyi6YF4W0c3WUOEtCWI0_XlX-CQzkQp6XZbo0eFmnTHI8xZwWo6cj2S0WA1Ighu5rPdga6uZPbA=w800-no-tmp.jpg). I connected +3.3V and Gnd to the RS232 converter module and connected the black wire to its RS232 output. Sure enough, now the A5 voltage levels on the brown wire reached rail-to-rail as desired:
+I sort of remembered that the CM11A used the negative voltage on its input pin to generate the negative voltage on its output. To test this, I fished out a new RS232 converter chip and [this note](https://lh3.googleusercontent.com/pw/ACtC-3fRqbOwYhAg9EuXhRdoCVjb2EJmCpPHutMtDdMWLWyNa1VRXgIfi36sf8gFG6BCd1bTIGDKEF8LYRiDyi6YF4W0c3WUOEtCWI0_XlX-CQzkQp6XZbo0eFmnTHI8xZwWo6cj2S0WA1Ighu5rPdga6uZPbA=w800-no-tmp.jpg). I soldered +3.3V and Gnd to the RS232 converter module and the black wire to its RS232 output. Sure enough, now the A5 voltage levels on the brown wire reached rail-to-rail as desired:
 ![enter image description here](https://lh3.googleusercontent.com/DrAZ7TgaGMjGE7KgsVW6KGusOXwxWWByrj08KE7MKCIXcUhGCrHM05vVzQBRTk7VHzDQYbQoaqNMlB-usoLx06HXlegTTaCORGsd_hvDAyBUEQe5QhjjkvSP77BqJ1DRoJ4L5WamANIBkKHSSXqe7ZgXOVai3ktI80AU3gMr5eYJt8FcNuzft-FnU7y-DnVoJse2bHKXOkEPbGbZt1QI6uS8S1yAoGQgbMnSwO5Zw7S-saIB5OCPEmHEMuQlYCUWGDRjDfNW-F_JUA8TRAIjOa1T8j1MYSTI8Ee1wIc6_-SYrhKprBVVdzbQjqsm3EJWDWeAD7h23s3Zut--mEUWaQLTsTwraZUe4LFTrNlKhGiq3OSwXMIp0JAiAijMocAFpvIit10gg2JLtQ1AIsxulCd7MkHzkP72Dkhf-ghnGiGyTOjoB6z0wDkNLpMxuRXQxqyMsm4I2rmfm8bEKcEpzA534HGAWaXuQWRyDvLbPn9yG49EmACWXH_pBMpCeJ9kQPtC7D9qYST9ZgnTh1tKX6mgnL5tuxaH0M0WttQMu_4ZGsaKWI_pzihzql8BxRjh3iW6esMqAvRpLqGMK4_vWCfuwSOpGFtMTEgXTYb16nJuALw4WKLE6DVgJtalPP2TjpECTfXqJeDAD6TsY68ef2wN7194KHCO5PkFrZTpGU9ezYjQgf829AhI4Hr3m27_2RGyU9tMWNRDvxfqwUR4N4l9qQ=w800-no-tmp.jpg)
 
 Next I soldered the brown wire to the RS232 side, and a green wire to the TTL-level output and verified that the "A5" was now inverted and level-shifted back to 3.3V.  This is so-called TTL-Serial.
@@ -26,7 +26,7 @@ Now I had to find some software that worked. I knew "Heyu" would work on Linux, 
 
 The .zip file unpacked and the .exe file runs without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough to turn a module on and off and download timers into the CM11A. And then I wrote up this blog post. Now that's a very successful geek day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxMzUzNjg4LDQ0MDM3MTgzNCwtMTAxNT
-I2MzY2MiwtNzgxMzMwMDAyLC0xOTAyOTk2ODMsMTkwMjM2NzM0
-NywxOTE1MTMxNDAzLDkzNzAwNjEzOSw5NDAyNTcxMzJdfQ==
+eyJoaXN0b3J5IjpbLTExMjAwODg4MTAsNDQwMzcxODM0LC0xMD
+E1MjYzNjYyLC03ODEzMzAwMDIsLTE5MDI5OTY4MywxOTAyMzY3
+MzQ3LDE5MTUxMzE0MDMsOTM3MDA2MTM5LDk0MDI1NzEzMl19
 -->
