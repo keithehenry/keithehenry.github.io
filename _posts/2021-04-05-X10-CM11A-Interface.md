@@ -22,14 +22,14 @@ Finally, I connected the MSP430G2553 Launchpad development board, with all the j
 
 Removing the jumpers isolates the development board's USB to serial emulator from the chip under development. Connecting serial in and serial out is a bit odd - the green jumper, receiving data for the host, is on the second row of pins. Putty must be set to connect on /dev/ttyACM0 at 4800 baud.
 
-Now I had to find some software that worked. I knew "Heyu" would work on Linux, but I never figured out how to use it to program macros. Instead, I tried another program with a GUI and more like the original, Active Home Vista. I was quite skittish about all the free download sites but [this one](https://www.download82.com/download/windows/active-home-vista/) ended up being legit. *Just make sure you hit the right download button.* Check the MD5 checksum too.
+Now I had to find some software that worked. I knew "Heyu" would work on Linux, but I never figured out how to use it to program macros. Instead, I tried another program with a GUI and more like the original, Active Home Vista (2.4.20). I was quite skittish about all the free download sites but [this one](https://www.download82.com/download/windows/active-home-vista/) ended up being legit. Just make sure you *hit the right download button.* :) Check the MD5 checksum too.
 
 The .zip file unpacked and the .exe file ran without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough to turn a module on and off and download timers into the CM11A.
 
 And then I wrote up this blog post. Now that's a very successful geek day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNzM0MTM1LC0xMzM3NTc0MDQsNDQwMz
-cxODM0LC0xMDE1MjYzNjYyLC03ODEzMzAwMDIsLTE5MDI5OTY4
-MywxOTAyMzY3MzQ3LDE5MTUxMzE0MDMsOTM3MDA2MTM5LDk0MD
-I1NzEzMl19
+eyJoaXN0b3J5IjpbLTEwMjkwMDcyOTUsLTEzMzc1NzQwNCw0ND
+AzNzE4MzQsLTEwMTUyNjM2NjIsLTc4MTMzMDAwMiwtMTkwMjk5
+NjgzLDE5MDIzNjczNDcsMTkxNTEzMTQwMyw5MzcwMDYxMzksOT
+QwMjU3MTMyXX0=
 -->
