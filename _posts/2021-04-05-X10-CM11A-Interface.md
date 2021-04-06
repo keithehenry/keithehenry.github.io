@@ -20,9 +20,11 @@ Next I connected the brown wire to the RS232 side, and a green wire to the TTL-l
 Finally, I connected the MSP430G2553 Launchpad development board, with all the jumpers removed, and the RS232 module as shown, and tested that I could send data as well (with Putty).
 ![enter image description here](https://lh3.googleusercontent.com/pw/ACtC-3cwr0lRRSqNvyGN-tyxWq7NBPd8LqP3KT8Hmw1Rx7vZlUnERC_dM4UYFwzVRoZ4CBpJi3vtJEyWk0oBNbh2iy3zq-CUsEpR7veyRSPdmRB-qXQs1HlWYwJqQ6gfuwKcUzJ3Pfh8xv57sruhuq0vjYssUQ=w800-no-tmp.jpg)
 
-Removing the jumpers isolates the development board's USB to serial emulator from the chip under development. Connecting serial in and serial out is a bit odd - the green jumper, receiving data for the host, is on the second row of pins. Putty must be set to connect on /dev/ttyACM0 at 4800. 
+Removing the jumpers isolates the development board's USB to serial emulator from the chip under development. Connecting serial in and serial out is a bit odd - the green jumper, receiving data for the host, is on the second row of pins. Putty must be set to connect on /dev/ttyACM0 at 4800.
+
+Now I had to hope I could find some software that worked. I knew "heyu" would work on Linux, but I never figured out how to use it to program macros. Instead, I tried ano
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQ1OTEwMzcsLTE5MDI5OTY4MywxOT
-AyMzY3MzQ3LDE5MTUxMzE0MDMsOTM3MDA2MTM5LDk0MDI1NzEz
-Ml19
+eyJoaXN0b3J5IjpbMTUyMzIxMTIwOSwtMTkwMjk5NjgzLDE5MD
+IzNjczNDcsMTkxNTEzMTQwMyw5MzcwMDYxMzksOTQwMjU3MTMy
+XX0=
 -->
