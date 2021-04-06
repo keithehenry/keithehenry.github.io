@@ -20,13 +20,13 @@ Next I soldered the brown wire to the RS232 side, and a green wire to the TTL-le
 Finally, I connected the MSP430G2553 Launchpad development board, with all the jumpers removed, and the RS232 module as shown, and tested that I could send data as well (with Putty).
 ![enter image description here](https://lh3.googleusercontent.com/pw/ACtC-3cwr0lRRSqNvyGN-tyxWq7NBPd8LqP3KT8Hmw1Rx7vZlUnERC_dM4UYFwzVRoZ4CBpJi3vtJEyWk0oBNbh2iy3zq-CUsEpR7veyRSPdmRB-qXQs1HlWYwJqQ6gfuwKcUzJ3Pfh8xv57sruhuq0vjYssUQ=w800-no-tmp.jpg)
 
-Removing the jumpers isolates the development board's USB to serial emulator from the chip under development. Connecting serial in and serial out is a bit odd - the green jumper, receiving data for the host, is on the second row of pins. Putty must be set to connect on /dev/ttyACM0 at 4800.
+Removing the jumpers isolates the development board's USB to serial emulator from the chip under development. Connecting serial in and serial out is a bit odd - the green jumper, receiving data for the host, is on the second row of pins. Putty must be set to connect on /dev/ttyACM0 at 4800 baud.
 
 Now I had to find some software that worked. I knew "Heyu" would work on Linux, but I never figured out how to use it to program macros. Instead, I tried another program with a GUI and more like the original, Active Home Vista. I was quite skittish about all the free download sites but [this one](https://www.download82.com/download/windows/active-home-vista/) ended up being legit. *Just make sure you hit the right download button.* Check the MD5 checksum too.
 
 The .zip file unpacked and the .exe file runs without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough and got it to work. And then I wrote up this blog post. A very successful geek day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMzcxODM0LC0xMDE1MjYzNjYyLC03OD
-EzMzAwMDIsLTE5MDI5OTY4MywxOTAyMzY3MzQ3LDE5MTUxMzE0
-MDMsOTM3MDA2MTM5LDk0MDI1NzEzMl19
+eyJoaXN0b3J5IjpbMjAyMjAwNzI5OCw0NDAzNzE4MzQsLTEwMT
+UyNjM2NjIsLTc4MTMzMDAwMiwtMTkwMjk5NjgzLDE5MDIzNjcz
+NDcsMTkxNTEzMTQwMyw5MzcwMDYxMzksOTQwMjU3MTMyXX0=
 -->
