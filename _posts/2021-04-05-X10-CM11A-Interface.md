@@ -14,7 +14,7 @@ It was alive! But why was the waveform only from 0 to 6 volts? RS232 should be f
 I sort of remembered that the CM11A used the negative voltage on its input pin to generate the negative voltage on its output. To test this, I fished out a new RS232 converter chip and [this note](https://lh3.googleusercontent.com/pw/ACtC-3fRqbOwYhAg9EuXhRdoCVjb2EJmCpPHutMtDdMWLWyNa1VRXgIfi36sf8gFG6BCd1bTIGDKEF8LYRiDyi6YF4W0c3WUOEtCWI0_XlX-CQzkQp6XZbo0eFmnTHI8xZwWo6cj2S0WA1Ighu5rPdga6uZPbA=w800-no-tmp.jpg). I soldered +3.3V and Gnd to the RS232 converter module and the black wire to its RS232 output. Sure enough, now the A5 voltage levels on the brown wire reached rail-to-rail as desired:
 ![enter image description here](https://lh3.googleusercontent.com/DrAZ7TgaGMjGE7KgsVW6KGusOXwxWWByrj08KE7MKCIXcUhGCrHM05vVzQBRTk7VHzDQYbQoaqNMlB-usoLx06HXlegTTaCORGsd_hvDAyBUEQe5QhjjkvSP77BqJ1DRoJ4L5WamANIBkKHSSXqe7ZgXOVai3ktI80AU3gMr5eYJt8FcNuzft-FnU7y-DnVoJse2bHKXOkEPbGbZt1QI6uS8S1yAoGQgbMnSwO5Zw7S-saIB5OCPEmHEMuQlYCUWGDRjDfNW-F_JUA8TRAIjOa1T8j1MYSTI8Ee1wIc6_-SYrhKprBVVdzbQjqsm3EJWDWeAD7h23s3Zut--mEUWaQLTsTwraZUe4LFTrNlKhGiq3OSwXMIp0JAiAijMocAFpvIit10gg2JLtQ1AIsxulCd7MkHzkP72Dkhf-ghnGiGyTOjoB6z0wDkNLpMxuRXQxqyMsm4I2rmfm8bEKcEpzA534HGAWaXuQWRyDvLbPn9yG49EmACWXH_pBMpCeJ9kQPtC7D9qYST9ZgnTh1tKX6mgnL5tuxaH0M0WttQMu_4ZGsaKWI_pzihzql8BxRjh3iW6esMqAvRpLqGMK4_vWCfuwSOpGFtMTEgXTYb16nJuALw4WKLE6DVgJtalPP2TjpECTfXqJeDAD6TsY68ef2wN7194KHCO5PkFrZTpGU9ezYjQgf829AhI4Hr3m27_2RGyU9tMWNRDvxfqwUR4N4l9qQ=w800-no-tmp.jpg)
 
-Next I soldered the brown wire to the RS232 side, and a green wire to the TTL-level output and verified that the "A5" was now inverted and level-shifted back to 3.3V.  This is so-called TTL-Serial.
+Next I soldered the brown wire to the RS232 side, and a green wire to the TTL-level output and verified that the "A5" was now inverted and level-shifted back to 3.3V.  This is good - so-called TTL-Serial.
 ![enter image description here](https://lh3.googleusercontent.com/pw/ACtC-3c0ff9Z0erJZt9l2oNy0rlKE9DrUwXVcbZ-70Rq9CQytdJZwNOgXTOL1Xv4hm-JbR_LyutD6TgWFTNUAtaanCt5wZj-E3w4GK9Vbfpk6U5coo9Og5lCeRoTPTch-_eVZTCXqzzDnREKAl-_dwpeJ_4Chw=w800-no-tmp.jpg)
 
 Finally, I connected the MSP430G2553 Launchpad development board, with all the jumpers removed, and the RS232 module as shown, and tested that I could send data as well (with Putty).
@@ -26,7 +26,7 @@ Now I had to find some software that worked. I knew "Heyu" would work on Linux, 
 
 The .zip file unpacked and the .exe file runs without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough to turn a module on and off and download timers into the CM11A. And then I wrote up this blog post. Now that's a very successful geek day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAwODg4MTAsNDQwMzcxODM0LC0xMD
-E1MjYzNjYyLC03ODEzMzAwMDIsLTE5MDI5OTY4MywxOTAyMzY3
-MzQ3LDE5MTUxMzE0MDMsOTM3MDA2MTM5LDk0MDI1NzEzMl19
+eyJoaXN0b3J5IjpbLTEzMzc1NzQwNCw0NDAzNzE4MzQsLTEwMT
+UyNjM2NjIsLTc4MTMzMDAwMiwtMTkwMjk5NjgzLDE5MDIzNjcz
+NDcsMTkxNTEzMTQwMyw5MzcwMDYxMzksOTQwMjU3MTMyXX0=
 -->
