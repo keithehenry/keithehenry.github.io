@@ -24,9 +24,12 @@ Removing the jumpers isolates the development board's USB to serial emulator fro
 
 Now I had to find some software that worked. I knew "Heyu" would work on Linux, but I never figured out how to use it to program macros. Instead, I tried another program with a GUI and more like the original, Active Home Vista. I was quite skittish about all the free download sites but [this one](https://www.download82.com/download/windows/active-home-vista/) ended up being legit. *Just make sure you hit the right download button.* Check the MD5 checksum too.
 
-The .zip file unpacked and the .exe file runs without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough to turn a module on and off and download timers into the CM11A. And then I wrote up this blog post. Now that's a very successful geek day!
+The .zip file unpacked and the .exe file ran without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough to turn a module on and off and download timers into the CM11A.
+
+And then I wrote up this blog post. Now that's a very successful geek day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc1NzQwNCw0NDAzNzE4MzQsLTEwMT
-UyNjM2NjIsLTc4MTMzMDAwMiwtMTkwMjk5NjgzLDE5MDIzNjcz
-NDcsMTkxNTEzMTQwMyw5MzcwMDYxMzksOTQwMjU3MTMyXX0=
+eyJoaXN0b3J5IjpbNTczNzM0MTM1LC0xMzM3NTc0MDQsNDQwMz
+cxODM0LC0xMDE1MjYzNjYyLC03ODEzMzAwMDIsLTE5MDI5OTY4
+MywxOTAyMzY3MzQ3LDE5MTUxMzE0MDMsOTM3MDA2MTM5LDk0MD
+I1NzEzMl19
 -->
