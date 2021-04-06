@@ -2,7 +2,7 @@
 categories:
   - Electronics
 ---
-My old X10 [CM11A](http://kbase.x10.com/wiki/CM11A) is back up and working! This is the story:
+My old X10 [CM11A](http://kbase.x10.com/wiki/CM11A) is back up and working! Here's how:
 
 I had an old male-RS232 to something adapter with the end cut off. I stripped off the outer insulator and discovered an outer shield, presumably ground, and one brown and one black wire.
 I also had [these notes](https://lh3.googleusercontent.com/3Ly2EBkKP3Ju0IRfNoA2Kt7q1PeDDjdCyUuiW7rhq6Z-pa_PgI56-2UU-aceeE4Jx5Dxj4kav0BhXIQ8Ga6fEh0h1K7K_uVQ8RWITrmCw5HXZRBelM10NY4nTiPEZXlQVsfYaQS_0o4Dg0yJVPULJnD_F_tvzyl8AOYlX1W-5jYI-aT6fs3bykgWZsXW6ovnb-XvqCZYyykRYnCmdxxObTKTo7ZQo2lgZgDiSw0F_LArXrPK5fmgHIkkHzet4lxkKxt9n58brQuRdKjUqhretgE4-mM87PL80NRfRdvYU9z-ekmSiEKVNPKgiUqcTUCW-Ps5Q0n8M44FglneT4VntZJfy9doj-gSQj4BCnMMa8wnFwjmR5qZjrYmsDsIjlYPvc6pJK8khMRtWw-YLR3EzABI_BX1dfR_6KWDQbfhUlY39js6oYMBWOcn2oJIU3oh3EcPwXsaCbDA_vgRWkNIncmEQMKxMU1fOmM8hEDF3DQUBeZQDn-Vbjoh23rYHCHh7WMlj5T7BXdBUGM37B6V3Pru-FalTfav-YBhvEa7sO2w6r0HQVrksvvORbrsd4xp2USMAIrRcFIlRRARZnhB93yhNB-Biyk3hpmQiSY-cTXOwRYStKhcE905BjS7IqLnQdTKsGbUB5Cxyciovr86g8xJCdT94q6mpqm1Y1uCAdFHhIqVdoCY5Dn03K9hZof1WiVgc-4XL5oGrXfnug2bEGtl2g=w1000-no-tmp.jpg) from before, and then verified (with a continuity tester) that the ground shield did indeed connect to pin 5, and that the brown and black wires connected to pins 2 and 3 respectively. Deciphering my earlier notes, the brown wire then should be SIN (serial in to host), the output of the X10 interface.
@@ -24,11 +24,9 @@ Removing the jumpers isolates the development board's USB to serial emulator fro
 
 Now I had to find some software that worked. I knew "Heyu" would work on Linux, but I never figured out how to use it to program macros. Instead, I tried another program with a GUI and more like the original, Active Home Vista. I was quite skittish about all the free download sites but [this one](https://www.download82.com/download/windows/active-home-vista/) ended up being legit. *Just make sure you hit the right download button.* Check the MD5 checksum too.
 
-The .zip file unpacked and the .exe file runs without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough and got it to work. And then I wrote 
-
-I very successful geek day!
+The .zip file unpacked and the .exe file runs without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough and got it to work. And then I wrote up this blog post. A very successful geek day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDMyMzUwMzMsLTEwMTUyNjM2NjIsLT
-c4MTMzMDAwMiwtMTkwMjk5NjgzLDE5MDIzNjczNDcsMTkxNTEz
-MTQwMyw5MzcwMDYxMzksOTQwMjU3MTMyXX0=
+eyJoaXN0b3J5IjpbNDQwMzcxODM0LC0xMDE1MjYzNjYyLC03OD
+EzMzAwMDIsLTE5MDI5OTY4MywxOTAyMzY3MzQ3LDE5MTUxMzE0
+MDMsOTM3MDA2MTM5LDk0MDI1NzEzMl19
 -->
