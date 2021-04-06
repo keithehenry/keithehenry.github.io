@@ -23,8 +23,12 @@ Finally, I connected the MSP430G2553 Launchpad development board, with all the j
 Removing the jumpers isolates the development board's USB to serial emulator from the chip under development. Connecting serial in and serial out is a bit odd - the green jumper, receiving data for the host, is on the second row of pins. Putty must be set to connect on /dev/ttyACM0 at 4800.
 
 Now I had to find some software that worked. I knew "Heyu" would work on Linux, but I never figured out how to use it to program macros. Instead, I tried another program with a GUI and more like the original, Active Home Vista. I was quite skittish about all the free download sites but [this one](https://www.download82.com/download/windows/active-home-vista/) ended up being legit. *Just make sure you hit the right download button.* Check the MD5 checksum too.
+
+The .zip file unpacked and the .exe file runs without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough and got it to work. And then I wrote 
+
+I very successful geek day!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTg4NjcyNiwtMTAxNTI2MzY2MiwtNz
-gxMzMwMDAyLC0xOTAyOTk2ODMsMTkwMjM2NzM0NywxOTE1MTMx
-NDAzLDkzNzAwNjEzOSw5NDAyNTcxMzJdfQ==
+eyJoaXN0b3J5IjpbLTIwNDMyMzUwMzMsLTEwMTUyNjM2NjIsLT
+c4MTMzMDAwMiwtMTkwMjk5NjgzLDE5MDIzNjczNDcsMTkxNTEz
+MTQwMyw5MzcwMDYxMzksOTQwMjU3MTMyXX0=
 -->
