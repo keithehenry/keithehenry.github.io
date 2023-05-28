@@ -27,4 +27,4 @@ Now I had to find some software that worked. I knew "Heyu" would work on Linux, 
 
 The .zip file unpacked and the .exe file ran without being installed. I did have some unknown issue at first but after a reboot it worked. I played around with the GUI enough to turn a module on and off and download timers into the CM11A.
 
-I wrote this blog post mostly so I wouldn't forget how it works. Now that's a very successful geek day!
+Soon afterwards I wrote this blog post mostly so I wouldn't forget how it works. Now that's a very successful geek day!
