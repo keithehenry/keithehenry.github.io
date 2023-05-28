@@ -13,7 +13,7 @@ I noticed others in the Discord using the "as" syntax. This photo with "as a 19t
 
 ![](https://cdn.discordapp.com/attachments/1008571061119483984/1104877894011981824/KeithEHenry_as_19th_century_cowboy_on_a_horse_ce5d7923-9288-4d05-921b-1f308eeb4061.png)
 
-Seeing that the likeness wasn’t great, this quick selfy with “as a 19th-century cowboy on a horse in Sedona, AZ” resulting in:  
+Seeing that the likeness wasn’t great, this quick selfy with “as a 19th-century cowboy on a horse in Sedona, AZ” resulted in:  
 ![Keith Selfie](/assets/images/20230507_141601.jpg){:width="285"}
 
 ![](https://cdn.discordapp.com/attachments/1008571061119483984/1104886576787488830/KeithEHenry_as_19th_century_cowboy_on_a_horse_in_Sedona_AZ_e93f9085-967a-4019-8cad-07fe414dbfda.png)  
