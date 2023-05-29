@@ -89,5 +89,6 @@ defaults:
 # In original 'minima':
 # show_excerpts: true # set to false to remove excerpts on the homepage
 
-host: 192.168.0.4
-
+# Use this syntax on the command line to host on a home network:
+# $ bundle exec Jekyll serve --host=0.0.0.0
+# No rule in Windows Firewall is required.
