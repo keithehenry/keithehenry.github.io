@@ -15,6 +15,5 @@ Check out:
 [Keith and Leigh in Mexico](http://www.keithandleigh.com/categories/mexblog/)  
 [Casa de Keith y Leigh](http://www.keithandleigh.com/categories/casa/)
 
-*KEH - Update 2020-08-07:
-Consolidated old blogs into one and reworked, making this the new home of
-everything [KeithAndLeigh.com](http://keithandleigh.com).*
+*Update 2020-08-07:*  
+Consolidated old blogs into one and reworked, making the new home of everything: [KeithAndLeigh.com](http://keithandleigh.com).
